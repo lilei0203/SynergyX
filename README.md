@@ -3,9 +3,9 @@
 ## Introduction
 In the "Comparison between different types of models" experiment of the study "A Review of Deep Learning Approaches for Drug Synergy Prediction in Cancer", SynergyX is retrained using the DrugComb dataset, and the hyperparameters are readjusted to ensure a fair comparison under consistent experimental conditions:
 
-batchsize=32
-learning rate=0.0001
-epoch=500
+* batchsize=32
+* learning rate=0.0001
+* epoch=500
 
 
 ## Overview
@@ -44,6 +44,7 @@ Run the following commands to train SynergyX.
 ``` 
 python main.py --mode train  > './experiment/'$(date +'%Y%m%d_%H%M').log
 ``` 
+
 
 
 
